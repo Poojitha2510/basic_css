@@ -1,0 +1,44 @@
+body{
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background-image: url(backall.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.recent{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-top: 100px;
+    gap: 80px;
+}
+h1{
+    color: blue;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    transition: all 0.5s  ease-in-out;
+    border: 1px solid gray;
+    width: fit-content;
+    padding: 2px;
+    align-items: center;
+    box-shadow: 5px 5px 5px palevioletred;
+    margin-left: 600px;
+    border-radius: 5px;
+}
+h1:hover{
+    color: white;
+    background-color: rgb(38, 47, 136);
+    transform: scale(1.06);
+}
+.song,image{
+    border: 5px solid black;
+    border-radius: 2px;
+    transition: transform 0.6s;
+    background-color: green;
+}
+.song:hover{
+    box-shadow: 4px 4px 4px blue;
+    transform: scale(1.06);
+}
