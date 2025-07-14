@@ -1,0 +1,30 @@
+#dotted{
+         border: 2px dotted black;
+}
+#solid{
+        border: 2px solid red;
+}
+#dashed{
+        border: 2px dashed green;
+}
+#doubled{
+         border: 2px double palevioletred;
+}
+#ridge{
+        border: 2px ridge orange;
+}
+#inset{
+        border: 2px inset violet;
+}
+#outset{
+        border: 2px outset maroon;
+}
+#none{
+       border: 2px none blue ;
+}
+#hidden{
+         border: 2px hidden blueviolet;
+}
+#groove{
+         border: 2px groove purple;
+}

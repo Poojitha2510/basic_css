@@ -1,0 +1,50 @@
+.flex-container{
+    display: flex;
+   text-align: center;
+   gap:15px;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    text-shadow: 2px 2px white;
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(226, 239, 52);
+    transition-duration: 2s;
+    transition-property: width;
+    transition-timing-function: unset;
+    transition-delay: 1s;
+}
+.box2:hover{
+    width:200px;
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(60, 102, 208);
+}
+.box4{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(170, 51, 132);
+}
+.box5{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    background-color: wheat;
+    border: 2px solid rgb(106, 86, 120);
+}
+.img{
+    background-image: url(box1.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    transition: 2s ease-in;
+}
+.img:hover{
+    width: 100px;
+}
